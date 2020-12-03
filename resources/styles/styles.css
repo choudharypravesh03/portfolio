@@ -247,7 +247,7 @@ footer#connect {
 
   .word .cursor {
     margin-top: -4px;
-    height: 16px;
+    height: 16px !important;
   }
 
   .city {
