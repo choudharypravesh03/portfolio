@@ -235,3 +235,27 @@ footer#connect {
   -webkit-transform: translateX(-25px) translateY(-75px);
   transform: translateX(-25px) translateY(-75px);
 }
+
+@media screen and (max-width: 786px) {
+  .word {
+    margin-top: 20px;
+  }
+
+  .word .myWord {
+    font-size: 12px;
+  }
+
+  .word .cursor {
+    margin-top: -4px;
+    height: 16px;
+  }
+
+  .city {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  footer#connect {
+    padding: 2.5rem 1rem;
+  }
+}
